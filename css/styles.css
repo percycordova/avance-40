@@ -1,0 +1,252 @@
+/*----------------Estilos de iconos de Redes Sociales-----------------------------*/
+
+body {
+  background-color: #f8f8f8;
+}
+
+.encabezado {
+  font-size: 2.4rem;
+  font-family: "Lato", sans-serif;
+  color: #000000;
+  line-height: 2.7rem;
+}
+.encabezado span {
+  font-size: 3.5rem;
+  font-family: "Italianno", cursive;
+  color: #e082a8;
+}
+
+.sociales ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sociales ul li {
+  position: relative;
+  display: inline-block;
+}
+
+.sociales ul li a::before {
+  font-family: "FontAwesome";
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.4rem;
+  content: "\f08e";
+  -webkit-font-smoothing: antialised;
+  font-size: 2rem;
+  color: #e082ab;
+}
+
+.sociales ul li a[href*="www.facebook.com"]::before {
+  content: "\f230";
+}
+
+.sociales ul li a[href*="www.instagram.com"]::before {
+  content: "\f16d";
+}
+
+.sociales ul li a[href*="www.twitter.com"]::before {
+  content: "\f081";
+}
+
+.sociales ul li a[href*="www.youtube.com"]::before {
+  content: "\f16a";
+}
+
+.sociales ul li a[href*="www.pinterest.com"]::before {
+  content: "\f0d2";
+}
+
+/*------------------------------------Fin de estilos de Iconos de Redes Sociales-------------------------------*/
+
+/*----------------------------------------Navegacion-------------------------------*/
+
+.navegacion {
+  background-color: #e082a8 !important ;
+  padding-top: 10px !important ;
+  padding-bottom: 10px !important;
+}
+.navegacion * {
+  background: #e082a8 !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background: white !important;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(107,108,107, .5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-light .navbar-toggler {
+  background: #ffffff !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover {
+  color: #ffffff !important;
+}
+
+/*.navbar-light .navbar-brand {
+  color: #fff !important;
+}*/
+
+.nav-principal {
+  background-image: url(../img/border_horizontal.png),
+    url(../img/border_horizontal.png) !important;
+  background-repeat: repeat-x !important;
+  background-position: 0px bottom, 0px top !important;
+}
+
+.nav-link {
+  font-family: "Raleway", cursive;
+  color: #000000;
+  font-size: 1.7rem;
+  font-weight: 600;
+  transition: background-color 0.5s;
+}
+.nav-link:hover {
+  background-color: #e74184 !important;
+  color: #ffffff;
+}
+/*----------------------------------Fin Navegacion---------------------*/
+
+.percy {
+  border: 1px solid black;
+}
+
+/*------------------------carrousel--------------*/
+.carousel-caption h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+.carousel img {
+  width: 100%;
+  max-height: 570px;
+  min-height: 200px;
+  object-fit: cover;
+}
+
+/*----------------Nuevo sitio-------------------*/
+
+.nuevo-sitio p {
+  font-family: "Lato", sans-serif;
+  color: #979797;
+  font-size: 1.4rem;
+}
+/*-----------------Fin Nuevo Sitio*/
+
+/*----------------------Servicios----------------*/
+.imagen-servicio img {
+  border: 6px solid #ffffff;
+  -webkit-transition: transform 0.4s ease;
+  transition: transform 0.4s ease;
+}
+.imagen-servicio img:hover {
+  -webkit-transform: scale(1.01) rotate(10deg);
+  transform: scale(1.01) rotate(10deg);
+}
+
+.servicio-info {
+  background-color: #ffffff !important;
+  margin-top: -5rem;
+}
+.servicio-info .btn-primary {
+  border-radius: 0;
+  background-color: #e082a8;
+  border: none;
+}
+/*----------------------------fin de Servicios-------*/
+
+/*--------------------------Estilo para el horario-----------*/
+
+.horario {
+  background-color: #8ed3cc;
+  color: #ffffff;
+}
+.horario h2 {
+  font-size: 2.2rem;
+  font-family: "Lato", sans-serif;
+}
+.horario .table {
+  border: 2px solid #e082a8;
+}
+.horario .table thead {
+  background-color: #e082a8;
+}
+.horario .table td,
+.horario .table thead th {
+  font-size: 1.3rem;
+  border: none;
+}
+.horario .table tbody tr td {
+  padding: 0.3rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+}
+.horario .bg-horario {
+  background-image: url(../img/bg_horarios.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 400px;
+}
+/*-----------------------------------------------------------Fin de estilos para horario-------------*/
+
+/*-----------------------inicio estilos productos-----------------------*/
+.productos .card {
+  border: none;
+}
+
+.productos .card a {
+  text-decoration: none;
+  color: #000000;
+}
+.productos .card h3 {
+  color: #e082a8;
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+}
+.productos .card p {
+  font-size: 0.8rem;
+}
+.productos .card .precio {
+  font-size: 1.6rem;
+  color: #414141;
+}
+
+/*-----------------------Fin estilos productos-----------------------*/
+
+/*-----------------------inicio estilos Citas------------------------*/
+.citas {
+  background-image: url(../img/bg_citas.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #ffffff;
+}
+
+.citas h3{
+  font-size: 3.5rem;
+  font-family: 'Lato',sans-serif;
+}
+
+.citas p{
+  font-size: 1.2rem;
+  line-height: 2.6rem;
+}
+
+.citas .btn-primary{
+  background-color: #8ed3cc;
+  border: none;
+  padding:1rem 5rem ;
+  border-radius: 0;
+  font-family: 'Lato',sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+
+@media (min-width: 992px) {
+  .citas {
+    background-size: cover;
+  }
+}
